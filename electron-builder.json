@@ -1,0 +1,15 @@
+{
+    "appId": "com.github.second",
+    "files":["dist-electron","dist-react"],
+    "icon":"./desktopIcon.png",
+    "mac":{
+        "target":"dmg"
+    },
+    "win":{
+        "target":["portable","nsis"]
+    },
+    "linux":{
+        "target":"AppImage",
+        "category":"Utility"
+    }
+}
